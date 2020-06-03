@@ -14,6 +14,6 @@ Read midi from usb or from MIDI-In socket or from a MIDIfile on SD card to actio
 
 Designed for teensy 3.6
 
-Stepper-motors controls boards A4988 are controlled from a mcp23017 ( extender GPIO )  
-Selenoides and micro motors are controlled from a IRF540 board connected to a pca9685 board ( PWM controller )  
+Stepper-motors controls boards A4988 are controlled from a mcp23017 ( I2C extender GPIO )  
+Selenoides and micro motors are controlled from a IRF540 board connected to a pca9685 board ( I2C PWM controller )  
 
